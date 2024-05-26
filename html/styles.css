@@ -1,20 +1,38 @@
-/*
-h1 {
-    background-color: green
-}
-*/
-
-.img {
-    max-height:100vh;
-    width: 100%;
-    background-repeat: no-repeat;
+.masthead {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('cg.jpg'); /* Ruta de tu imagen de fondo */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end; /* Alinea el contenido al final (abajo) */
     justify-content: center;
+    padding-bottom: 40px; /* Espacio opcional para el fondo */
+}
+.masthead .content {
     text-align: center;
-    /*
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-transform: capitalize;
-    color: white;
-    */
+    color: black;
+}
+.masthead .content h2, 
+.masthead .content p {
+    color: black;
+}
+.section-with-bg {
+    background-color: rgba(97, 66, 122, 0.8);
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.text-black {
+    color: black;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+.divider {
+    margin: 2rem 0;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    background-color: grey; 
 }
