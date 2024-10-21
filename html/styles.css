@@ -77,3 +77,27 @@
     cursor: pointer;
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
+
+/* Reduce el tamaño de las cards */
+.small-card {
+    width: 100%; /* Mantén el ancho del 100% dentro de su columna */
+    height: 420px; /* Ajusta la altura de la card */
+}
+
+/* Ajusta el tamaño de la imagen dentro de la card */
+.card-img-top {
+    width: 100%;
+    height: 220px; /* Ajusta la altura de la imagen */
+    object-fit: cover;
+}
+
+/* Reduce el tamaño de los botones y márgenes */
+.small-card .card-body {
+    padding: 10px; /* Reduce el padding del cuerpo de la card */
+}
+
+.btn-sm {
+    font-size: 0.8rem; /* Botón más pequeño */
+    padding: 5px 10px; /* Tamaño del botón más compacto */
+}
+
