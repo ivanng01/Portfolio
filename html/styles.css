@@ -40,6 +40,9 @@
     height: 420px; /* Ajusta la altura de la card */
 }
 
+.card {
+  display:flex;
+}
 /* Ajusta el tamaño de la imagen dentro de la card */
 .card-img-top {
     width: auto;
