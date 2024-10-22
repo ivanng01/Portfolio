@@ -34,50 +34,6 @@
 }
 
 
-/* Estilos del overlay para la imagen ampliada */
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    overflow: hidden;
-}
-
-/* Estilo para la imagen dentro del overlay */
-.overlay img {
-    max-width: 50vw; /* Usa el 50% del ancho del viewport */
-    max-height: 50vh; /* Usa el 50% del alto del viewport */
-    object-fit: contain; /* Ajusta la imagen sin recortarla */
-}
-
-/* Estilo del botón de cerrar */
-.close-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 1.5em;
-}
-
-.carousel-item img {
-    width: 40vw; /* 40% del ancho de la pantalla */
-    height: auto; /* Mantén la proporción de la imagen */
-    object-fit: contain; /* Asegura que la imagen se ajuste sin recortarse */
-    cursor: pointer;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-}
-
 /* Reduce el tamaño de las cards */
 .small-card {
     width: 100%; /* Mantén el ancho del 100% dentro de su columna */
@@ -86,8 +42,8 @@
 
 /* Ajusta el tamaño de la imagen dentro de la card */
 .card-img-top {
-    width: 100%;
-    height: 220px; /* Ajusta la altura de la imagen */
+    width: auto;
+    height: auto; /* Ajusta la altura de la imagen */
     object-fit: cover;
 }
 
