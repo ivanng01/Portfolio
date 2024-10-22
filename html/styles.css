@@ -41,8 +41,12 @@
 }
 
 .card {
-  display:flex;
+    height: 300px; /* Altura fija para todas las tarjetas */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    display: flex; /* Utiliza flexbox para alinear el contenido */
+    flex-direction: column; /* Alinea el contenido verticalmente */
 }
+
 /* Ajusta el tamaño de la imagen dentro de la card */
 .card-img-top {
     width: auto;
